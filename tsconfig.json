@@ -1,0 +1,33 @@
+{
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "build"
+  ],
+  "compilerOptions": {
+    "target": "es6",
+    "baseUrl": "./",
+    "outDir": "build",
+    "paths": {
+      "~/*": [
+        "src/*"
+      ],
+      "config/*": [
+        "config/*"
+      ]
+    },
+    "pretty": false,
+    "sourceMap": true,
+    "module": "commonjs",
+    "removeComments": true,
+    "moduleResolution": "node",
+    "lib": [
+      "es2015",
+      "es2016",
+      "es2017"
+    ]
+  },
+  "compileOnSave": false
+}

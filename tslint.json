@@ -1,0 +1,18 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:recommended",
+    "tslint-config-standard"
+  ],
+  "rules": {
+    "semicolon": false,
+    "ter-indent": 4,
+    "arrow-parens": false,
+    "no-console": false,
+    "member-access": false,
+    "trailing-comma": true,
+    "array-type": false,
+    "space-before-function-paren": false,
+    "object-literal-sort-keys": false
+  }
+}
